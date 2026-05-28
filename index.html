@@ -7,10 +7,10 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body>
-    <div class="container mx-auto p-4">
+<body class="dark:bg-olive-900">
+    <div class="container mx-auto p-4 ">
 
-        <header class="flex flex-row justify-between border-b border-gray-400 pb-4 sticky top-0 z-10 bg-white">
+        <header class="flex flex-row justify-between border-b border-gray-400 pb-4 sticky top-0 z-10 bg-white dark:bg-olive-900 dark:text-white">
             <h1 class=" font-bold text-xl sm:font-bold sm:text-3xl ">Launchpad Jobs</h1>
             <button class="bg-indigo-500 text-white py-1 px-2 rounded-lg sm:py-2 sm:px-4 sm:rounded-lg">Post a Job</button>
         </header>
@@ -20,94 +20,94 @@
                 <h2>ALL</h2>
             </button>
             <button
-                class=" border-1 rounded-full border-gray-400 mx-1 text-gray-400 py-1 px-2 active:bg-indigo-500 active:text-white active:border-0 my-2 sm:border-1 rounded-full border-gray-400 mx-2 text-gray-400 py-2 px-4 active:bg-indigo-500 active:text-white active:border-0">
+                class=" border-1 rounded-full border-gray-400 mx-1 text-gray-400 py-1 px-2 active:bg-indigo-500 active:text-white active:border-0 my-2 sm:border-1 rounded-full border-gray-400 mx-2 text-gray-400 py-2 px-4 active:bg-indigo-500 active:text-white active:border-0 hover:border-2 hover:border-indigo-500">
                 <h2>Full-time</h2>
             </button>
             <button
-                class=" border-1 rounded-full border-gray-400 mx-1 text-gray-400 py-1 px-2 active:bg-indigo-500 active:text-white active:border-0 my-2 sm:border-1 rounded-full border-gray-400 mx-2 text-gray-400 py-2 px-4 active:bg-indigo-500 active:text-white active:border-0">
+                class=" border-1 rounded-full border-gray-400 mx-1 text-gray-400 py-1 px-2 active:bg-indigo-500 active:text-white active:border-0 my-2 sm:border-1 rounded-full border-gray-400 mx-2 text-gray-400 py-2 px-4 active:bg-indigo-500 active:text-white active:border-0 hover:border-2 hover:border-indigo-500">
                 <h2>Part-time</h2>
             </button>
         </div>
 
-        <div class="container mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 grid bg-gray-100 p-4">
-            <div class="border border-gray-400 rounded-lg p-4 bg-white">
+        <div class="container mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 grid bg-gray-100 p-4 dark:bg-olive-900">
+            <div class="border border-gray-400 rounded-lg p-4 bg-white dark:bg-olive-800 dark:text-white dark:border-0 hover:border-2 hover:border-indigo-500 hover:border-blue-500 hover:shadow-[0_0_15px_rgba(59,130,246,0.8)]">
                 <h3 class="font-bold text-xl mb-2">Software Engineer<span
-                        class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full float-right">Full-time</span>
+                        class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full inline-block sm:float-right">Full-time</span>
                 </h3>
-                <p class="text-gray-600 mb-4">Tech Company Inc.</p>
-                <p class="text-gray-800 mb-4">We are looking for a skilled software engineer to join our team...</p>
+                <p class="text-gray-600 mb-4 dark:text-white">Tech Company Inc.</p>
+                <p class="text-gray-800 mb-4 dark:text-white">We are looking for a skilled software engineer to join our team...</p>
                 <button class="bg-indigo-500 text-white py-2 px-4 rounded-lg">View Details</button>
             </div>
-            <div class="border border-gray-400 rounded-lg p-4 bg-white">
+            <div class="border border-gray-400 rounded-lg p-4 bg-white dark:bg-olive-800 dark:text-white dark:border-0 hover:border-2 hover:border-indigo-500 hover:border-blue-500 hover:shadow-[0_0_15px_rgba(59,130,246,0.8)]">
                 <h3 class="font-bold text-xl mb-2">Product Manager <span
-                        class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded-full float-right">Part-time</span>
+                        class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded-full inline-block sm:float-right">Part-time</span>
                 </h3>
 
-                <p class="text-gray-600 mb-4">Innovate Solutions Ltd.</p>
-                <p class="text-gray-800 mb-4">Seeking an experienced product manager to lead our product development...
+                <p class="text-gray-600 mb-4 dark:text-white">Innovate Solutions Ltd.</p>
+                <p class="text-gray-800 mb-4 dark:text-white">Seeking an experienced product manager to lead our product development...
                 </p>
                 <button class="bg-indigo-500 text-white py-2 px-4 rounded-lg">View Details</button>
             </div>
-            <div class="border border-gray-400 rounded-lg p-4 bg-white">
+            <div class="border border-gray-400 rounded-lg p-4 bg-white dark:bg-olive-800 dark:text-white dark:border-0 hover:border-2 hover:border-indigo-500 hover:border-blue-500 hover:shadow-[0_0_15px_rgba(59,130,246,0.8)]">
                 <h3 class="font-bold text-xl mb-2">UX Designer <span
-                        class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full float-right">Full-time</span>
+                        class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full inline-block sm:float-right">Full-time</span>
                 </h3>
-                <p class="text-gray-600 mb-4">Creative Agency Co.</p>
-                <p class="text-gray-800 mb-4">Looking for a talented UX designer to create intuitive user experiences...
+                <p class="text-gray-600 mb-4 dark:text-white">Creative Agency Co.</p>
+                <p class="text-gray-800 mb-4 dark:text-white">Looking for a talented UX designer to create intuitive user experiences...
                 </p>
                 <button class="bg-indigo-500 text-white py-2 px-4 rounded-lg">View Details</button>
             </div>
-            <div class="border border-gray-400 rounded-lg p-4 bg-white">
+            <div class="border border-gray-400 rounded-lg p-4 bg-white dark:bg-olive-800 dark:text-white dark:border-0 hover:border-2 hover:border-indigo-500 hover:border-blue-500 hover:shadow-[0_0_15px_rgba(59,130,246,0.8)]">
                 <h3 class="font-bold text-xl mb-2">Data Analyst <span
-                        class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded-full float-right">Part-time</span>
+                        class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded-full inline-block sm:float-right">Part-time</span>
                 </h3>
-                <p class="text-gray-600 mb-4">Data Insights Inc.</p>
-                <p class="text-gray-800 mb-4">We are looking for a detail-oriented data analyst to join our team...</p>
+                <p class="text-gray-600 mb-4 dark:text-white">Data Insights Inc.</p>
+                <p class="text-gray-800 mb-4 dark:text-white">We are looking for a detail-oriented data analyst to join our team...</p>
                 <button class="bg-indigo-500 text-white py-2 px-4 rounded-lg">View Details. </button>
             </div>
-            <div class="border border-gray-400 rounded-lg p-4 bg-white">
+            <div class="border border-gray-400 rounded-lg p-4 bg-white dark:bg-olive-800 dark:text-white dark:border-0 hover:border-2 hover:border-indigo-500 hover:border-blue-500 hover:shadow-[0_0_15px_rgba(59,130,246,0.8)]">
                 <h3 class="font-bold text-xl mb-2">Marketing Specialist <span
-                        class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full float-right">Full-time</span>
+                        class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full inline-block sm:float-right">Full-time</span>
                 </h3>
-                <p class="text-gray-600 mb-4">Marketing Solutions Ltd.</p>
-                <p class="text-gray-800 mb-4">Seeking a creative marketing specialist to develop and execute marketing
+                <p class="text-gray-600 mb-4 dark:text-white">Marketing Solutions Ltd.</p>
+                <p class="text-gray-800 mb-4 dark:text-white">Seeking a creative marketing specialist to develop and execute marketing
                     strategies...</p>
                 <button class="bg-indigo-500 text-white py-2 px-4 rounded-lg">Apply Now</button>
             </div>
-            <div class="border border-gray-400 rounded-lg p-4 bg-white">
+            <div class="border border-gray-400 rounded-lg p-4 bg-white dark:bg-olive-800 dark:text-white dark:border-0 hover:border-2 hover:border-indigo-500 hover:border-blue-500 hover:shadow-[0_0_15px_rgba(59,130,246,0.8)]">
                 <h3 class="font-bold text-xl mb-2">Customer Support Representative <span
-                        class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded-full float-right">Part-time</span>
+                        class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded-full inline-block sm:float-right">Part-time</span>
                 </h3>
-                <p class="text-gray-600 mb-4">Support Solutions Inc.</p>
-                <p class="text-gray-800 mb-4">We are looking for a friendly customer support representative to join our
+                <p class="text-gray-600 mb-4 dark:text-white">Support Solutions Inc.</p>
+                <p class="text-gray-800 mb-4 dark:text-white">We are looking for a friendly customer support representative to join our
                     team...</p>
                 <button class="bg-indigo-500 text-white py-2 px-4 rounded-lg">Apply Now</button>
             </div>
-            <div class="border border-gray-400 rounded-lg p-4 bg-white">
+            <div class="border border-gray-400 rounded-lg p-4 bg-white dark:bg-olive-800 dark:text-white dark:border-0 hover:border-2 hover:border-indigo-500 hover:border-blue-500 hover:shadow-[0_0_15px_rgba(59,130,246,0.8)]">
                 <h3 class="font-bold text-xl mb-2">DevOps Engineer <span
-                        class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full float-right">Full-time</span>
+                        class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full inline-block sm:float-right">Full-time</span>
                 </h3>
-                <p class="text-gray-600 mb-4">Cloud Solutions Inc.</p>
-                <p class="text-gray-800 mb-4">Seeking an experienced DevOps engineer to manage our cloud
+                <p class="text-gray-600 mb-4 dark:text-white">Cloud Solutions Inc.</p>
+                <p class="text-gray-800 mb-4 dark:text-white">Seeking an experienced DevOps engineer to manage our cloud
                     infrastructure...</p>
                 <button class="bg-indigo-500 text-white py-2 px-4 rounded-lg">View Details</button>
             </div>
-            <div class="border border-gray-400 rounded-lg p-4 bg-white">
+            <div class="border border-gray-400 rounded-lg p-4 bg-white dark:bg-olive-800 dark:text-white dark:border-0 hover:border-2 hover:border-indigo-500 hover:border-blue-500 hover:shadow-[0_0_15px_rgba(59,130,246,0.8)]">
                 <h3 class="font-bold text-xl mb-2">Sales Associate <span
-                        class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full float-right">Full-time</span>
+                        class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full inline-block sm:float-right">Full-time</span>
                 </h3>
-                <p class="text-gray-600 mb-4">Retail Giant Inc.</p>
-                <p class="text-gray-800 mb-4">Looking for a sales associate to help customers find the perfect
+                <p class="text-gray-600 mb-4 dark:text-white">Retail Giant Inc.</p>
+                <p class="text-gray-800 mb-4 dark:text-white">Looking for a sales associate to help customers find the perfect
                     products...</p>
                 <button class="bg-indigo-500 text-white py-2 px-4 rounded-lg">Apply Now</button>
             </div>
 
-            <div class="border border-gray-400 rounded-lg p-4 bg-white">
+            <div class="border border-gray-400 rounded-lg p-4 bg-white dark:bg-olive-800 dark:text-white dark:border-0 hover:border-2 hover:border-indigo-500 hover:border-blue-500 hover:shadow-[0_0_15px_rgba(59,130,246,0.8)]">
                 <h3 class="font-bold text-xl mb-2">Content Writer <span
-                        class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded-full float-right">Part-time</span>
+                        class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded-full inline-block sm:float-right">Part-time</span>
                 </h3>
-                <p class="text-gray-600 mb-4">Creative Minds Inc.</p>
-                <p class="text-gray-800 mb-4">We are looking for a creative content writer to produce engaging articles
+                <p class="text-gray-600 mb-4 dark:text-white">Creative Minds Inc.</p>
+                <p class="text-gray-800 mb-4 dark:text-white">We are looking for a creative content writer to produce engaging articles
                     and blog posts...</p>
                 <button class="bg-indigo-500 text-white py-2 px-4 rounded-lg">Apply Now</button>
             </div>
@@ -115,7 +115,7 @@
         </div>
         <hr class="border-gray-400 mt-5">
 
-        <footer class="font-medium p-5 text-center">
+        <footer class="font-medium p-5 text-center dark:text-white">
             <p>&copy; 2023 Job Board. All rights reserved.</p>
         </footer>
     </div>
